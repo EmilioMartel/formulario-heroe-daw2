@@ -64,7 +64,11 @@ export class AgregarComponent implements OnInit {
 
   guardar(){
     //campos obligatorios
-    if( this.heroe.superhero.trim().length === 0 ) {
+    if( this.heroe.superhero.trim().length === 0 ||
+        this.heroe.alter_ego.trim().length === 0 ||
+        this.heroe.first_appearance.trim().length === 0 ||
+        this.heroe.characters.trim().length === 0 ||
+        this.heroe.alt_img?.trim().length === 0 ) {
       return;
     }
     
