@@ -9,3 +9,4 @@
 - En una carpeta clona o descarga este proyecto y en otra descarga el archivo [db.json](https://github.com/EmilioMartel/heroesApp-server/blob/main/db.json), para tener separado nuestra base datos aparte de nuestra app. Luego ejecuta la terminal donde tengas ubicado el **db.json** y escribe el siguiente comando: `json-server --watch db.json`.
 
 - De esta forma tenemos nuestro **fake REST API** en pleno funcionamiento y listo para que hagas las consultas que quieras.
+# formulario-heroe-daw2
