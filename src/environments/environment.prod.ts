@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://emilio-martel-superheroes.com'
+  baseUrl: 'https://raw.githubusercontent.com/EmilioMartel/heroesApp-server/main/db.json'
 
 };

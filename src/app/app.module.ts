@@ -7,12 +7,10 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { ErrorPageComponent } from './shared/error-page/error-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ErrorPageComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
